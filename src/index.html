@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante</title>
+  <link rel="stylesheet" href="./style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="back-box"></div>
+
+    <nav class="navbar">
+      <a href="#" class="logo"><span>Feane</span></a>
+
+      <ul class="menu">
+        <li><a href="#" class="nav-item active">Home</a></li>
+        <li><a href="#" class="nav-item">Menu</a></li>
+        <li><a href="#" class="nav-item">Sobre</a></li>
+        <li><a href="#" class="nav-item">Cardápio</a></li>
+      </ul>
+
+      <div class="hamburger-menu"></div>
+    </nav>
+
+    <div class="hero-content">
+      <div class="slider">
+        <div class="slides" id="slides">
+
+          <div class="slide">
+            <h1>Fast Food <span>Restaurant</span></h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ratione earum vel sed illo, libero
+              dolores. Deleniti explicabo placeat quisquam, et dicta autem cumque? Mollitia, fuga. Facere consequatur
+              iste libero?</p>
+            <a href="#" class="btn">Order now</a>
+          </div>
+
+          <div class="slide">
+            <h1>Best <span>Burgers</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa accusamus quae amet asperiores autem
+              veritatis error debitis odio est illo praesentium repellendus suscipit a perspiciatis ducimus, doloribus
+              blanditiis aut deleniti.</p>
+            <a href="#" class="btn">Ver Cardápio</a>
+          </div>
+
+          <div class="slide">
+            <h1>Fresh <span>Drinks</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, inventore doloremque facilis vitae ut
+              molestiae laudantium saepe dolorum doloribus voluptate autem perspiciatis totam. Voluptatem possimus animi
+              quo. Doloremque, voluptates rerum!</p>
+            <a href="#" class="btn">Pedir agora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="promotion-cards">
+      <div class="box">
+        <div class="circle"
+          style="background: url('https://themewagon.github.io/feane/images/o1.jpg') center/cover no-repeat;">
+        </div>
+        <div class="content">
+          <h5>Tasty Thursdays</h5>
+          <h6>20% <span>Off</span></h6>
+          <a href="#" class="btn">Order Now</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="circle"
+          style="background: url('https://themewagon.github.io/feane/images/o2.jpg') center/cover no-repeat;"></div>
+        <div class="content">
+          <h5>Tasty Thursdays</h5>
+          <h6>20% <span>Off</span></h6>
+          <a href="#" class="btn">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="our-menu">
+      <h2>Our Menu</h2>
+      <div class="our-menu-selectors">
+      </div>
+      <div class="items">
+        <!-- Exemplo do item gerado pelo JS -->
+        <!-- <div class="item">
+          <div class="image">
+            <img src="https://themewagon.github.io/feane/images/f1.png" alt="Pizza">
+          </div>
+          <div class="item-content">
+            <div class="title">
+              Delicious
+              <span>Pizza</span>
+            </div>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsa, veritatis, id architecto
+              consequuntur eum distinctio nobis perspiciatis inventore commodi.
+            </p>
+            <div class="shop">
+              <div class="price">$20</div>
+              <div class="icon-shop"></div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="read-more">
+      <div class="left">
+        <img src="https://themewagon.github.io/feane/images/about-img.png" alt="Hamburger">
+      </div>
+      <div class="right">
+        <div class="right-title">
+          <h2>We Are Feane</h2>
+        </div>
+        <div class="right-description">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form, by injected humour, or randomised words which don't look even slightly believable. If you are going
+          to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
+          text. All
+        </div>
+        <div class="btn">Read More</div>
+      </div>
+    </div>
+    <div class="where-we-are">
+      <form class="form" action="#" method="POST">
+        <h2>Book A Table</h2>
+        <div class="form-group">
+          <!-- <label for="name">Your Name</label> -->
+          <input type="text" name="name" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <!-- <label for="phone">Phone Number</label> -->
+          <input type="text" name="phone" id="phone" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group">
+          <!-- <label for="email">Your Email</label> -->
+          <input type="email" name="email" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <!-- <label for="persons">Persons</label> -->
+          <select name="persons" id="persons" required>
+            <option value="" disabled selected>How many persons?</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <!-- <label for="date">Date</label> -->
+          <input type="date" name="date" id="date" required>
+        </div>
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Arapiraca&output=embed" width="100%" height="100%" style="border:0;"
+          allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+    <div class="what-says-the-customers">
+      <h2>What Says The Customers</h2>
+      <div class="customer-cards">
+        <div class="customer-card">
+          <div class="head">
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta quidem dolore, reiciendis, fugit
+              distinctio reprehenderit labore ut nulla cum iure.
+            </div>
+            <div class="customer-name">
+              Moana Michel
+            </div>
+            <div class="stars">
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="box-image">
+              <img src="https://themewagon.github.io/feane/images/client1.jpg" alt="Mulher">
+            </div>
+          </div>
+        </div>
+        <div class="customer-card">
+          <div class="head">
+            <div class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dicta quidem dolore, reiciendis, fugit
+              distinctio reprehenderit labore ut nulla cum iure.
+            </div>
+            <div class="customer-name">
+              Mike Hammel
+            </div>
+            <div class="stars">
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+              <div class="star"></div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="box-image">
+              <img src="https://themewagon.github.io/feane/images/client2.jpg" alt="Homem">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column contact-us">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Location</li>
+          <li><i class="fas fa-phone-alt"></i> Call +01 1234567890</li>
+          <li><i class="fas fa-envelope"></i> demo@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="footer-column logo-desc">
+        <h1>Feane</h1>
+        <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
+          words, combined with</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column opening-hours">
+        <h3>Opening Hours</h3>
+        <p>Everyday</p>
+        <p>10.00 Am - 10.00 Pm</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    let index = 0;
+    const slides = document.getElementById("slides");
+
+    function atualizarSlide() {
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    function avancar() {
+      index = (index + 1) % 3;
+      atualizarSlide();
+    }
+
+    function voltar() {
+      index = (index - 1 + 3) % 3;
+      atualizarSlide();
+    }
+
+    setInterval(avancar, 4000);
+  </script>
+
+  <script>
+    const hamburger = document.querySelector(".hamburger-menu");
+    const menu = document.querySelector(".menu");
+
+    const navItems = document.querySelectorAll(".menu .nav-item");
+
+    navItems.forEach(item => {
+      item.addEventListener("click", () => {
+        navItems.forEach(item => item.classList.remove("active"));
+
+        item.classList.add("active");
+
+        menu.classList.remove("active");
+      })
+    })
+
+    hamburger.addEventListener("click", () => {
+      menu.classList.toggle("active");
+    })
+  </script>
+
+  <script>
+    const ourMenu = [
+      { title: "Delicious", subtitle: "Pizza", img: "https://themewagon.github.io/feane/images/f1.png", price: 20 },
+      { title: "Delicious", subtitle: "Burger", img: "https://themewagon.github.io/feane/images/f2.png", price: 15 },
+      { title: "Delicious", subtitle: "Pizza", img: "https://themewagon.github.io/feane/images/f3.png", price: 17 },
+      { title: "Delicious", subtitle: "Pasta", img: "https://themewagon.github.io/feane/images/f4.png", price: 18 },
+      { title: "French", subtitle: "Fries", img: "https://themewagon.github.io/feane/images/f5.png", price: 10 },
+      { title: "Delicious", subtitle: "Pizza", img: "https://themewagon.github.io/feane/images/f6.png", price: 15 },
+      { title: "Tasty", subtitle: "Burger", img: "https://themewagon.github.io/feane/images/f7.png", price: 12 },
+      { title: "Tasty", subtitle: "Burger", img: "https://themewagon.github.io/feane/images/f8.png", price: 14 },
+      { title: "Delicious", subtitle: "Pasta", img: "https://themewagon.github.io/feane/images/f9.png", price: 10 },
+    ];
+
+    const container = document.querySelector(".our-menu .items");
+    const selectors = document.querySelector(".our-menu .our-menu-selectors");
+
+    function renderCards(lista) {
+      container.innerHTML = "";
+
+      lista.forEach(menu => {
+        const card = document.createElement("div");
+        card.classList.add("item");
+
+        card.innerHTML = `
+          <div class="image">
+            <img src="${menu.img}" alt="${menu.subtitle}">
+          </div>
+          <div class="item-content">
+            <div class="title">${menu.title} <span>${menu.subtitle}</span></div>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="shop">
+              <div class="price">$${menu.price}</div>
+              <div class="icon-shop"><span class="fa fa-shop"></span></div>
+            </div>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function criarCategorias() {
+      const categorias = ["All", ...new Set(ourMenu.map(item => item.subtitle))];
+
+      categorias.forEach(categoria => {
+        const button = document.createElement("div");
+        button.classList.add("item-list");
+        if (categoria === "All") button.classList.add("active");
+
+        button.innerText = categoria;
+
+        button.addEventListener("click", () => {
+          document.querySelectorAll(".item-list")
+            .forEach(btn => btn.classList.remove("active"));
+
+          button.classList.add("active");
+
+          if (categoria === "All") {
+            renderCards(ourMenu);
+          } else {
+            const filtrado = ourMenu.filter(item => item.subtitle === categoria);
+            renderCards(filtrado);
+          }
+        });
+
+        selectors.appendChild(button);
+      });
+    }
+
+    criarCategorias();
+    renderCards(ourMenu);
+  </script>
+
+  <script>
+    function formatPhone(value) {
+      value = value.replace(/\D/g, "").slice(0, 11);
+
+      let formatted = "";
+
+      if (value.length > 0) formatted += "(" + value.substring(0, 2);
+
+      if (value.length >= 3) formatted += ") " + value.substring(2, 3);
+
+      if (value.length >= 4) formatted += " " + value.substring(3, 7);
+
+      if (value.length >= 8) formatted += "-" + value.substring(7, 11);
+
+      return formatted;
+    }
+
+    function formatName(value) {
+      value = value.replace(/[^a-zA-ZÀ-ÿ\s]/g, "");
+
+      let formatted = value;
+
+      return formatted;
+    }
+
+    const phone = document.getElementById("phone");
+    const name = document.getElementById("name");
+    const email = document.getElementById("email");
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    phone.addEventListener("input", (e) => {
+      e.target.value = formatPhone(e.target.value);
+    });
+
+    name.addEventListener("input", (e) => {
+      e.target.value = formatName(e.target.value);
+    })
+
+    email.addEventListener("input", () => {
+      const value = email.value;
+
+      if (regex.test(value)) {
+        email.style.border = "2px solid green";
+      } else {
+        email.style.border = "2px solid red";
+      }
+    })
+  </script>
+</body>
+
+</html>
